@@ -16,7 +16,7 @@ class TestEmployee(unittest.TestCase):
     # 添加员工
     def test01_add_employee(self):
         # 定义json数据
-        add_employee_data = {"username":"finntest06", "mobile":"13900000126", "workNumber":"072106"}
+        add_employee_data = {"username":"finntest16", "mobile":"13900000116", "workNumber":"072116"}
         # 发送请求，接收响应
         response = self.employee_api.req_add_employee(add_employee_data=add_employee_data)
         print(response.json())
