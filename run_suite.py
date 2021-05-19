@@ -25,7 +25,8 @@ suite.addTest(unittest.makeSuite(TestEmployee))
 
 # 指定文件路径
 # format格式化{}内的内容，按时间格式存储
-report = configure.BASE_DIR + "/report/report-{}.html".format(time.strftime("%Y%m%d-%H%M%S"))
+# report = configure.BASE_DIR + "/report/report-{}.html".format(time.strftime("%Y%m%d-%H%M%S"))
+report = "./report/report.html"
 
 # 打开文件流
 with open(report, "wb") as f:
